@@ -12,13 +12,13 @@ The user can choose to **Hit** by entering a **H** when prompted. A **S** respon
 
 Requirements:
 -------------
-* SBT 0.13.1
-* Scala 2.10.3+
-* Java 1.7+
+* SBT 0.13.1 - [Install](http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html)
+* Scala 2.10.3+ - [Install](http://www.scala-lang.org/download/2.10.3.html)
+* Java 1.7+ - [Install](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
 
 Usage:
 ------
-* Checkout the codebase
+* Checkout the codebase: `git clone https://github.com/sranga/examples.git`
 * This project requires SBT to build and run. Please download and install it using this page: [SBT Setup](http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html)
 * After SBT is successfully installed, start the game using `sbt run` from the *examples* (top-level) directory
 
@@ -102,6 +102,6 @@ Sample Output:
 
     ======= Game Summary =======
     Start-Credit: [ 100 ],  End-Credit: [ 0 ]
-    Player: [ 2, 8, 10 ], Dealer: [ 10, 7 ], Result: Won
-    Player: [ 2, 8, 10 ], Dealer: [ 10, 10 ], Result: Lost
-    Player: [ 2, 1, 6, 5, 5, 9 ], Dealer: [ 10, 2 ], Result: Lost
+    Round: 1, Result: Won, Player: [ 2, 8, 10 ], Dealer: [ 10, 7 ]
+    Round: 2, Result: Lost, Player: [ 2, 8, 10 ], Dealer: [ 10, 10 ]
+    Round: 3, Result: Lost, Player: [ 2, 1, 6, 5, 5, 9 ], Dealer: [ 10, 2 ]
